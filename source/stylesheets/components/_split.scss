@@ -1,0 +1,12 @@
+
+.split {
+  display: flex;
+  .split-right {
+    margin-left: 25px;
+    flex-basis: 50%;
+  }
+  .split-left{
+    margin-right: 25px;
+    flex-basis: 50%;
+  }
+}

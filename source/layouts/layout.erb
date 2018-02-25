@@ -6,12 +6,23 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title %></title>
+    <title>Riad Zouhra</title>
+    <meta name="description" content="Riad Zouhra, situé dans la médina d'Essaouira est un logement de vacances idéal comme point de départ de vos excursions à pied, en vélo, en 4x4 ou en dromadaire... Ce riad de 6 à 7 personnes allie l'aspect traditionnel de part son achitecture et le contemporain avec sa décoration épurée, sa blancheur.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Riad Zouhra">
+    <meta property="og:description" content="En 2018, la Catalogne célèbre l’année de la culture : une belle occasion d’aller à la rencontre du patrimoine culturel et de l’Histoire qui ont façonné les terres catalanes.">
+    <meta property="og:url" content="http://www.raidzouhra.com">
+    <meta property="og:image" content="http://www.magazine-couleursmaroc.com/cm-assets/uploads/2018/01/Essaouira.jpg">
+
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
+
   </head>
   <body>
+
+    <%= partial "layouts/navbar" %>
     <%= yield %>
+
   </body>
 </html>

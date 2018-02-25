@@ -1,0 +1,27 @@
+# data/infos.yml
+accueil:
+  intro: "Riad Zouhra est situé dans la médina d'Essaouira, dans le quartier typique médina Marocaine, de Chbanat.
+  Il est près  des souks, du port de toute l'animation d'Essaouira , à 2 minutes de la plage, et à deux pas du parking surveillé Bab Marrakech. Tout peut être visité à pied.
+  Point de départ de vos excursions à pied, en vélo, en 4x4, dromadaire... de vos activités nautiques, golf ...
+  Ce riad allie l'aspect traditionnel de part son achitecture et le contemporain avec sa décoration épurée, sa blancheur.
+  Il est composé de trois chambres avec leur salle de bain, d'un salons avec leur cheminée, d'une cuisine équipée avec son coin repas .  une terrasse et un solarium avec vue sur la médina.
+  Ce riad correspond à une famille de six à sept personnes avec sa superficie de 170m² comprenant 40m² de Terrasse."
+description_riad:
+  intro: "Les riads constituent un habitat traditionnel des centres urbains marocains (médinas). Ces maisons sont entièrement fermées sur l'extérieur et s'organisent autour du patio central, sur le modèle de l'habitat arabo-musulman traditionnel."
+  who: "Le Riad Zouhra est un riad ancien situé au cœur de la médina historique d’Essaouira, dans une impasse calme. Restauré de manière moderne , dans le goût du pays, il offre bien sûr tout le confort moderne."
+direction:
+  ville: "Essaouira (الصويرة) (la bien dessinée) est une ville portuaire du Maroc de la côte atlantique comptant environ 70 000 habitants et le chef-lieu de la province du même nom qui compte environ 500 000 habitants. Sa médina est inscrite au patrimoine mondial de l'UNESCO."
+  riad: "Le riad se trouve dans la Médina d'Essaouira, dans la rue Mourabitine, à 150 m du parking Bab Marrakech,... Le plan d'Essaouira vous permettra de nous localiser et de vous balader.."
+  details: "Pour se rendre au Riad  ZOUHRA : 1 - Se rendre sur la place Marrakech 2 – Rentrer dans la médina par la porte Bab Chbanat. 3 – Prendre la rue Chbanat. 4 – Prendre la rue en face le Riad Chbanat, puis à gauche , 2fois. 5 – Le Riad ZOUHRA est au fond de l’impasse. Vous pouvez prendre une petite charrette ou carrossa  pour vos bagages , Tarifs entre 10 et 20 DHS , suivant le poids de vos bagages."
+details_pratique:
+  intro: "Tout le linge de maison est fourni. Le riad dispose d'un lave linge, sèche linge, d'une table et d'un fer à repasser. La cuisine est équipée, c'est à dire réfrigérateur, plaques gaz, four électrique, micro onde,  électroménager complet ( cafetière , bouilloire , grille pain , robot ménager... , Vaisselles,... Nous mettons à votre disposition , un lit bébé   ( parapluie ) chaise bébé pour repas, poussette. Le riad est équipé d'une connexion Wifi, d'un téléphone fixe rechargeable. Petit coffre fort mis à disposition. Le ménage est inclus . Il est prévu à votre arrivé, un jour sur deux sur une semaine et à votre départ . Les animaux ne sont pas admis."
+  arrivee: "Avant votre arrivée, nous vous mettrons en contact avec la gouvernante du riad  afin qu'elle vous remette les clés à votre arrivée. A votre arrivée, si vous êtes en voiture, vous pouvez stationner au parking Bab Marrakeck. si vous arrivez en bus, l'arrêt se fait  place Bab Marrackeck... De la place (qui se situe à150 m du Riad), nous vous conseillons de prendre une petite charrette ou carrossa pour vos bagages , Tarifs entre 20 et 25 DHS , suivant le poids de vos bagages La ville d’Essaouira est située sur la côte atlantique marocaine, à 350 km de Casablanca, 175 km de Marrakech et 190 km d’Agadir. Son aéroport est situé à 18 km de la ville ."
+  info: "A votre arrivée, vous trouverez dans le salon un classeur contenant toutes les informations pratiques dont vous aurez besoin : Dates des marchés, excursions, location de vélo, voiture,... En cas de besoin ou questions pendant votre séjour, les différents contacts vous seront transmis."
+tarifs:
+  intro: "Riad pour 6/7 personnes. Tarifs à partir de 450€ la semaine à 600€ en Haute Saison. Possibilité de location du Riad à la nuit avec un minimum de 3 nuits . Nous contacter pour plus d'informations."
+  conditions: "Réservation et paiement par  virement. Premier versement / Acompte : 30% à la réservation. Deuxième versement : 70% 21 jours avant le départ de la location.
+  Caution de 200€  donné a votre arrivée au riad à Hanane et  redonné  à la fin de votre séjour après inventaire ."
+  reservations: " Possibilités de réservation sur : - Homelidays https://www.homelidays.com/hebergement/p6411395 - AirBnB https://www.airbnb.fr/rooms/12510249  - en direct en nous contactant à riadzouhra@gmail.com"
+
+
+
