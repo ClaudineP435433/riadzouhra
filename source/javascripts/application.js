@@ -6,7 +6,6 @@
 function hiddenVisit() {
   const buttons = document.querySelectorAll(".visit-button");
   const visitData = document.querySelectorAll(".visit-details");
-  console.log(visitData);
   buttons.forEach((button) => {
     button.addEventListener('click', () => {
       let visitCategory = "panel-" + button.dataset.panel;
@@ -18,4 +17,20 @@ function hiddenVisit() {
   });
 };
 
+function hiddenInfos() {
+  const buttonsInfos = document.querySelectorAll(".infos-button");
+  const infosData = document.querySelectorAll(".infos-details");
+  buttonsInfos.forEach((button) => {
+    button.addEventListener('click', () => {
+      let infosCategory = "panel-" + button.dataset.panel;
+      infosData.forEach((element) => {
+          element.classList.remove('infos-show');
+      });
+      document.querySelector("." + infosCategory).classList.add('infos-show');
+    });
+  });
+};
+
+
 hiddenVisit();
+hiddenInfos();

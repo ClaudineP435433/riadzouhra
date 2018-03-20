@@ -3,19 +3,26 @@
     <h3>Infos Pratiques</h3>
     <div class="menu">
       <ul class="list-inline">
-        <li><a href="">Votre Arrivée</a></li>
-        <li><a href="">Localisation</a></li>
-        <li><a href="">Avis</a></li>
-        <li><a href="">Essaouira</a></li>
+        <li><a href="#infos" data-panel="2-0" class="infos-button">Votre Arrivée</a></li>
+        <li><a href="#infos" data-panel="2-1" class="infos-button">Localisation</a></li>
+        <li><a href="#infos" data-panel="2-2" class="infos-button">Avis</a></li>
+        <li><a href="#infos" data-panel="2-3" class="infos-button">Essaouira</a></li>
       </ul>
     </div>
   </div>
 
-
-  <div class="container section-top">
-    <div class="split">
-      <div class="split-left"> MAP</div>
-      <div class="split-right"></div>
+  <div class="container">
+    <div class="infos-hidden panel-2-0 infos-show infos-details">
+      <%= partial "layouts/infos_intro" %>
+    </div>
+     <div class="infos-hidden panel-2-1 infos-details">
+      <%= partial "layouts/infos_map" %>
+    </div>
+     <div class="infos-hidden panel-2-2 infos-details">
+      <%= partial "layouts/infos_avis" %>
+    </div>
+     <div class="infos-hidden panel-2-3 infos-details">
+      <%= partial "layouts/infos_essaouira" %>
     </div>
   </div>
 </section>
