@@ -1,17 +1,20 @@
 # data/etages.yml
+description_riad:
+  intro: "Les riads constituent un habitat traditionnel des centres urbains marocains (médinas). Ces maisons sont entièrement fermées sur l'extérieur et s'organisent autour du patio central, sur le modèle de l'habitat arabo-musulman traditionnel."
+  text: "Le Riad Zouhra est un riad ancien situé au cœur de la médina historique d’Essaouira, dans une impasse calme. Restauré de manière moderne , dans le goût du pays, il offre bien sûr tout le confort moderne."
 rez_de_chaussee:
-  intro: "A votre arrivée, l'entrée du riad donne sur un patio et l’accès à la première chambre."
-  entree: "L'entrée donne accès au patio et à l’escalier. Le patio avec salon est équipé de 2 fauteuils ."
-  chambre: "La Chambre est équipée de 2 lits de 90 x 190. D'une salle de bain avec avec douche,  lavabo et WC séparé .Le linge de lit et de toilette sont fournis. La chambre est équipée d'un radiateur électrique et d'une cheminée."
+  intro: "A votre arrivée, l'entrée du riad donne sur un patio équipé de 2 fauteuils, l’accès à la première chambre / salle de bain et l'accés aux étages supérieurs ."
+  text: " La salle de bain spacieuse est équipée d'une douche et d'un lavabo. Cet étage dispose également d'un wc séparé. Le linge de toilette est fourni."
+  chambre: "La Chambre est équipée de 2 lits de 90 x 190 avec la possibilité de les disposer en lit double. Le linge de lit est fourni."
 premier_etage:
-  intro: "Au premier étage, vous trouverez une cuisine, un coin repas  et un salon."
-  cuisine: "La cuisine est équipée  d'un réfrigérateur, d'une plaque 3 gaz, d'un four, un micro onde , des équipements électroménager (cafetière, bouilloire , grille pain,...) et de la vaisselle. Le coin repas est composé d'une table avec 7 tabourets."
-  salon: "Le salon est équipé  d'une télévision,  d'un lecteur DVD, d'une chaine hifi, internet wifi et téléphone rechargeable avec carte ( Maroc Telecom ). Le coin salon avec sa cheminée est composé de banquettes, 3 poufs et  une table basse ."
+  intro: "Au premier étage, vous trouverez la cuisine, le coin repas et le salon."
+  text: "La cuisine est équipée d'un réfrigérateur, d'une plaque 3 gaz, d'un four, un micro onde, des équipements électroménager (cafetière, bouilloire , grille pain,...) et de la vaisselle. Le coin repas est composé d'une table avec 7 tabourets."
+  chambre: "Le salon est équipé d'une télévision, d'un lecteur DVD, d'une chaine hifi, internet wifi et téléphone rechargeable avec carte ( Maroc Telecom ). Avec sa cheminée fonctionnelle, le coin salon dispose d'une banquettes, de poufs et  une table basse ."
 deuxieme_etage:
   intro: "Le deuxième étage est composé d'une chambre et d'une salle d'eau."
-  chambre: "La chambre est équipée d'un lit 160 x 200 avec un  espace équipé d'une banquette de 80 x190 ( lit enfant)."
-  salledebain: "La salle de bain est équipée d'une baignoire, d'une douche, d'un lavabo et d'un WC."
+  chambre: "La chambre est équipée d'un lit 160 x 200 avec un  espace équipé d'une banquette de 80 x 190cm ( lit enfant). Plusieurs rangements sont à votre disposition."
+  text: "La salle de bain est équipée d'une baignoire, d'une douche, d'un lavabo et d'un WC."
 terrasse:
   intro: "Le dernier étage est composé d'une chambre, d'une terrasse et d'un solarium."
   chambre: "La chambre est équipée d'un lit de 140x200 avec une salle d'eau et toilettes."
-  salledebain: "La salle de bain est équipée d'une baignoire, d'une douche, d'un lavabo et d'un WC."
+  text: "La terrasse dispose d'un barbecue, d'un salon de jardin et de plusieurs transats."

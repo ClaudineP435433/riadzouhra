@@ -1,20 +1,53 @@
 <section id="reservation">
   <div class="section-title" style="background-image: url('https://thumb2.holidaypirates.com/I8Oyq4d6G0mMxvx5ZHYcbAHKHp4=/1314x600/https://media.mv.urlaubspiraten.de/images/2017/01/588776b09ef10378423653igsajhnn.jpg');">
     <h3>Tarifs & Réservations</h3>
+    <!-- <div class="menu">
+      <ul class="list-inline">
+        <li><a href="">Tarifs</a></li>
+        <li><a href="">Réservations</a></li>
+        <li><a href="">Contacts</a></li>
+      </ul>
+    </div> -->
   </div>
 
-  <div class="menu">
-    <ul class="list-inline">
-      <li><a href="">Nous Contacter</a></li>
-      <li><a href="">Tarifs</a></li>
-      <li><a href="">Moyens de réservations</a></li>
-    </ul>
-  </div>
+  <div class="container">
+    <div class="row resa">
+      <div class="col-xs-12 col-sm-6">
+        <h3>Tarifs</h3>
+        <p>Riad pour 6/7 personnes</p>
+        <p><%= data.infos["tarifs"].intro%></p>
+        <p> <i> Conditions de réservation : </i><br>
+        <%= data.infos["tarifs"].conditions%></p>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <h3>Réservations</h3>
+        <p></p>
+          <p>Possibilités de réservation :
+            <div class="resa-list">
+                <div class="resa-list-details">
+                  <p>
+                    - en direct en nous contactant sur riadzouhra@gmail.com
+                  </p>
+                </div>
 
-  <div class="container section-top">
-    <div class="split">
-      <div class="split-left"> CONTACTS</div>
-      <div class="split-right"></div>
+                <div class="resa-list-details">
+                  <p>- sur un de nos sites partenaires</p>
+                  <div class="resa-list-icon" id="icon-homelidays">
+                    <a href="https://www.homelidays.com/hebergement/p6411395" target="_blank">
+                      <%= image_tag "homelidays2.png" %>
+                    </a>
+                    <a href="https://www.airbnb.fr/rooms/12510249" target="_blank">
+                      <%= image_tag "airbnb-2.svg" %>
+                    </a>
+                  </div>
+                </div>
+
+
+
+            </div>
+          </p>
+
+      </div>
     </div>
   </div>
 </section>

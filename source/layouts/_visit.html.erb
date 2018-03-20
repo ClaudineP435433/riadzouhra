@@ -1,21 +1,43 @@
 <section id="visit">
   <div class="section-title" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Traditional_Moroccan_shoes_called_%22babouches%22.JPG/1200px-Traditional_Moroccan_shoes_called_%22babouches%22.JPG');">
     <h3>Visitez le Riad</h3>
-  </div>
-  <div class="menu">
-    <ul class="list-inline">
-      <li><a href="">Le Riad</a></li>
-      <li><a href="">Rez de Chaussee</a></li>
-      <li><a href="">1er Etage</a></li>
-      <li><a href="">2eme Etage</a></li>
-      <li><a href="">Terrasse</a></li>
-    </ul>
-  </div>
-
-  <div class="container section-top">
-    <div class="split">
-      <div class="split-left"> INFOS RIAD</div>
-      <div class="split-right"></div>
+    <div class="menu">
+      <ul class="list-inline">
+        <li><a href="#visit" data-panel="1-0" class="visit-button">Le Riad</a></li>
+        <li><a href="#visit" data-panel="1-1" class="visit-button">Rez de Ch.</a></li>
+        <li><a href="#visit" data-panel="1-2" class="visit-button">1er Etage</a></li>
+        <li><a href="#visit" data-panel="1-3" class="visit-button">2eme Etage</a></li>
+        <li><a href="#visit" data-panel="1-4" class="visit-button">Terrasse</a></li>
+        <li><a href="#visit" data-panel="1-5" class="visit-button">Galeries Photos</a></li>
+      </ul>
     </div>
   </div>
+
+  <div class="container">
+    <div class="visit-hidden panel-1-0 visit-show visit-details">
+      <%= partial "layouts/visit_intro" %>
+    </div>
+
+    <div class="visit-hidden panel-1-1 visit-details">
+      <%= partial "layouts/visit_rez"%>
+    </div>
+
+    <div class="visit-hidden panel-1-2 visit-details">
+      <%= partial "layouts/visit_premier"%>
+    </div>
+
+    <div class="visit-hidden panel-1-3 visit-details">
+      <%= partial "layouts/visit_second"%>
+    </div>
+
+    <div class="visit-hidden panel-1-4 visit-details">
+      <%= partial "layouts/visit_terrasse"%>
+    </div>
+
+     <div class="visit-hidden panel-1-5 visit-details">
+
+    </div>
+
+  </div>
+
 </section>

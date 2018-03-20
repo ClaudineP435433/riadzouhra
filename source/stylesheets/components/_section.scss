@@ -4,10 +4,98 @@
   background-position: 50%;
   background-size: cover;
   width: 100%;
+  position: relative;
+  h3 {
+    text-align: center;
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    color: #fff;
+    padding-top: calc((50vh - 70px)/2);
+  }
+}
+
+.section-top {
+  margin-top: 55px;
+   h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    z-index: -1;
+  }
+}
+
+.visit-hidden {
+  display: none;
+}
+
+.visit-hidden.visit-show {
+  display: block;
+}
+
+.visit-details {
+  width: 100%;
+  height: 100%;
+   h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    z-index: -1;
+  }
+
+  p {
+    z-index: -1;
+  }
+  img {
+    text-align: center;
+    max-height: 300px;
+    width: auto;
+    max-width: 450px;
+    background: cover;
+    z-index: -1;
+  }
+}
+
+.photo-h-2 {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content:space-around;
+  margin-bottom: 20px;
+}
+
+
+.resa-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.resa-list {
+  img {
+    text-align: center;
+    max-height: 70px;
+    width: auto;
+    max-width: 200px;
+    background: cover;
+
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+    &:hover {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  }
+
+}
+
+
+.resa {
+  width: 100%;
+  height: 100%;
   h3 {
-    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    z-index: -1;
   }
 }
