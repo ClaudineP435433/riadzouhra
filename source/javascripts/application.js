@@ -7,7 +7,7 @@
 
             // Instantiate the Bootstrap carousel
       $('.multi-item-carousel').carousel({
-        interval: false
+        interval: 3000
       });
 
       // for every slide in carousel, copy the next slide's item in the slide.
