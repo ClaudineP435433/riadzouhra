@@ -3,12 +3,64 @@
     <h3>Le Riad</h3>
     <div class="col-xs-12 col-sm-6">
       <p><%= data.etages["description_riad"].intro%></p>
-      <p><%= data.etages["description_riad"].text%></p>
+      <!-- <p><%#= data.etages["description_riad"].text%></p> -->
     </div>
     <div class="col-xs-12 col-sm-6">
-      <div class="photo-h-2">
+      <p><%= data.etages["description_riad"].text%></p>
+    </div>
+    <div class="col-xs-12">
+      <div class="carousel slide multi-item-carousel hidden-xs" id="theCarousel">
+        <!-- <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol> -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="col-sm-3 col-md-4"><%= image_tag "chbas1.jpg", class: "img-responsive"%></div>
+          </div>
+           <div class="item">
+            <div class="col-sm-3 col-md-4"><%= image_tag "chbas2.jpg", class: "img-responsive"%></div>
+          </div>
+          <div class="item">
+            <div class="col-sm-3 col-md-4"><%= image_tag "terrasse1.jpg", class: "img-responsive"%></div>
+          </div>
+          <div class="item">
+            <div class="col-sm-3 col-md-4"><%= image_tag "Cuisine1.jpg", class: "img-responsive"%></a></div>
+          </div>
+          <div class="item">
+            <div class="col-sm-3 col-md-4"><%= image_tag "Cuisine3.jpg", class: "img-responsive"%></div>
+          </div>
+          <div class="item">
+            <div class="col-sm-3 col-md-4"><%= image_tag "entree5.jpg", class: "img-responsive"%></div>
+          </div>
+          <div class="item">
+            <div class="col-sm-3 col-md-4"><%= image_tag "salon3.jpg", class: "img-responsive"%></div>
+          </div>
+          <!-- add  more items here -->
+          <div class="item">
+            <div class="col-sm-3 col-md-4"><%= image_tag "salon1.jpg", class: "img-responsive"%></div>
+          </div>
+          <!-- Example item start:  -->
+          <div class="item">
+            <div class="col-sm-3 col-md-4"><%= image_tag "entree3.jpg", class: "img-responsive"%></div>
+          </div>
+          <div class="item">
+            <div class="col-sm-3 col-md-4"><%= image_tag "terrasse5.jpg", class: "img-responsive"%></div>
+          </div>
+
+          <!--  Example item end -->
+        </div>
+
+
+
+        <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+        <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+      </div>
+
+      <div class="photo-h-2 hidden-sm hidden-lg hidden-md">
         <%= image_tag "entree6.jpg"%>
       </div>
+
     </div>
   </div>
 

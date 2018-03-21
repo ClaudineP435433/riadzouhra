@@ -1,7 +1,7 @@
 # data/etages.yml
 description_riad:
-  intro: "Les riads constituent un habitat traditionnel des centres urbains marocains (médinas). Ces maisons sont entièrement fermées sur l'extérieur et s'organisent autour du patio central, sur le modèle de l'habitat arabo-musulman traditionnel."
-  text: "Le Riad Zouhra est un riad ancien situé au cœur de la médina historique d’Essaouira, dans une impasse calme. Restauré de manière moderne , dans le goût du pays, il offre bien sûr tout le confort moderne."
+  intro: "Un riad constitue un habitat traditionnel des centres urbains marocains (médinas). Ces maisons sont entièrement fermées sur l'extérieur et s'organisent autour du patio central, sur le modèle de l'habitat arabo-musulman traditionnel."
+  text: "Riad Zouhra est un riad ancien situé au cœur de la médina historique d’Essaouira, dans une impasse calme. Restauré de manière moderne dans le goût du pays, il offre bien sûr tout le confort moderne."
 rez_de_chaussee:
   intro: "A votre arrivée, l'entrée du riad donne sur un patio équipé de 2 fauteuils, l’accès à la première chambre / salle de bain et l'accés aux étages supérieurs ."
   text: " La salle de bain spacieuse est équipée d'une douche et d'un lavabo. Cet étage dispose également d'un wc séparé. Le linge de toilette est fourni."
@@ -12,7 +12,7 @@ premier_etage:
   chambre: "Le salon est équipé d'une télévision, d'un lecteur DVD, d'une chaine hifi, internet wifi et téléphone rechargeable avec carte ( Maroc Telecom ). Avec sa cheminée fonctionnelle, le coin salon dispose d'une banquettes, de poufs et  une table basse ."
 deuxieme_etage:
   intro: "Le deuxième étage est composé d'une chambre et d'une salle d'eau."
-  chambre: "La chambre est équipée d'un lit 160 x 200 avec un  espace équipé d'une banquette de 80 x 190cm ( lit enfant). Plusieurs rangements sont à votre disposition."
+  chambre: "La chambre est équipée d'un lit 160 x 200 avec un  espace équipé d'une banquette de 80 x 190cm ( lit enfant). Plusieurs rangements sont à votre disposition. Petit coffre fort mis à disposition également. "
   text: "La salle de bain est équipée d'une baignoire, d'une douche, d'un lavabo et d'un WC."
 terrasse:
   intro: "Le dernier étage est composé d'une chambre, d'une terrasse et d'un solarium."
