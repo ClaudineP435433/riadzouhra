@@ -3,11 +3,11 @@
     <h3>Infos Pratiques</h3>
     <div class="menu">
       <ul class="list-inline">
-        <li><a href="#infos" data-panel="2-0" class="infos-button">Votre Arrivée</a></li>
-        <li><a href="#infos" data-panel="2-1" class="infos-button">Contacts</a></li>
-        <li><a href="#infos" data-panel="2-2" class="infos-button">Localisation</a></li>
-        <li><a href="#infos" data-panel="2-3" class="infos-button">Avis</a></li>
-        <li><a href="#infos" data-panel="2-4" class="infos-button">Essaouira</a></li>
+        <li><a href="#infos.menu" data-panel="2-0" class="infos-button">Votre Arrivée</a></li>
+        <li><a href="#infos.menu" data-panel="2-1" class="infos-button">Contacts</a></li>
+        <li><a href="#infos.menu" data-panel="2-2" class="infos-button">Localisation</a></li>
+        <li><a href="#infos.menu" data-panel="2-3" class="infos-button">Avis</a></li>
+        <li><a href="#infos.menu" data-panel="2-4" class="infos-button">Essaouira</a></li>
       </ul>
     </div>
   </div>
@@ -29,4 +29,22 @@
       <%= partial "layouts/infos_essaouira" %>
     </div>
   </div>
+
+  <script>
+    function hiddenInfos() {
+      const buttonsInfos = document.querySelectorAll(".infos-button");
+      const infosData = document.querySelectorAll(".infos-details");
+      buttonsInfos.forEach((button) => {
+        button.addEventListener('click', () => {
+          let infosCategory = "panel-" + button.dataset.panel;
+          infosData.forEach((element) => {
+              element.classList.remove('infos-show');
+          });
+          document.querySelector("." + infosCategory).classList.add('infos-show');
+        });
+      });
+    };
+    hiddenInfos();
+  </script>
+
 </section>

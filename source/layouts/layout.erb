@@ -16,15 +16,29 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Indie+Flower|Montserrat" rel="stylesheet">
     <%= stylesheet_link_tag "application" %>
-
-    <%#= favicon_tag 'images/favicon.png' %>
-
   </head>
   <body>
 
     <%= partial "layouts/navbar" %>
     <%= yield %>
     <%= partial "layouts/footer" %>
+
+    <script>
+      function initMap() {
+        var uluru = {lat: 31.512886, lng: -9.765531};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrHoYUqRJQbj1qMn3rDDXOBxJ9OQ-bEPw&callback=initMap">
+    </script>
     <%= javascript_include_tag "application" %>
   </body>
 </html>

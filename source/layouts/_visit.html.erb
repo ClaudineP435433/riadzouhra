@@ -32,7 +32,23 @@
     <div class="visit-hidden panel-1-4 visit-details">
       <%= partial "layouts/visit_terrasse"%>
     </div>
-
   </div>
+
+  <script>
+    function hiddenVisit() {
+      const buttons = document.querySelectorAll(".visit-button");
+      const visitData = document.querySelectorAll(".visit-details");
+      buttons.forEach((button) => {
+        button.addEventListener('click', () => {
+          let visitCategory = "panel-" + button.dataset.panel;
+          visitData.forEach((element) => {
+              element.classList.remove('visit-show');
+          });
+          document.querySelector("." + visitCategory).classList.add('visit-show');
+        });
+      });
+    };
+    hiddenVisit();
+  </script>
 
 </section>
