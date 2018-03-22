@@ -12,5 +12,5 @@ gem 'bootstrap-sass'
 gem 'jquery-middleman'
 gem 'figaro'
 
-gem 'open-uri'
+require 'open-uri'
 gem 'nokogiri'
