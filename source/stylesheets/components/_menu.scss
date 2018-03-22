@@ -9,6 +9,7 @@
   width: 100%;
   margin-bottom: 5px;
   ul {
+    list-style:none;
     width: 100%;
     display: flex;
     align-items: center;
@@ -28,6 +29,56 @@
     letter-spacing: 5px;
     &:hover {
       color: $light-gray;
+      background-color: rgb(60,60,60);
+    }
+  }
+}
+
+.menu-xs {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  width: 100%;
+  margin-bottom: 5px;
+  ul {
+    list-style:none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 0;
+  }
+  li {
+    margin: 7px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+  a {
+    padding: 10px;
+    background-color: rgb(20,20,20);
+    opacity: 0.9;
+    box-shadow: 0 0 5px black;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 8px;
+    color: white;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      color: $light-gray;
+      background-color: rgb(60,60,60);
     }
   }
 }
