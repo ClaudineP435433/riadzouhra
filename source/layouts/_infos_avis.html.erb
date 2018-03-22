@@ -1,0 +1,39 @@
+<%  %>
+
+  <div class="row">
+    <h3>Avis de nos Clients</h3>
+    <div class="col-xs-12 col-md-6">
+      <div class="resa-list-icon resa-list" id="icon-airbnb">
+        <a href="https://www.airbnb.fr/rooms/12510249" target="_blank">
+          <%= image_tag "airbnb-2.svg" %>
+        </a>
+      </div>
+
+    <!-- <div class="avis-details">
+      <%# url = "https://www.airbnb.fr/rooms/12510249" %>
+      <%# html_file = open(url).read %>
+      <%# html_doc = Nokogiri::HTML(html_file) %>
+      <%# avis = html_doc.search('._2h22gn') %>
+     <p><%#= avis.search('h4 ._1vbkutid').text.strip %></p>
+    </div> -->
+
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <div class="resa-list-icon resa-list" id="icon-airbnb">
+        <a href="https://www.homelidays.com/hebergement/p6411395" target="_blank">
+          <%= image_tag "homelidays2.png" %>
+        </a>
+      </div>
+      <div class="avis-details text-center">
+        <% urlh = "https://www.homelidays.com/hebergement/p6411395" %>
+        <% html_fileh = open(urlh).read %>
+        <% html_doch = Nokogiri::HTML(html_fileh) %>
+        <% avish = html_doch.search('.superlative-reviews-summary') %>
+        <p><%= avish[0].text.strip %></p>
+        <% avish2 = html_doch.search('.js-propertyReviews hreview') %>
+        <% avish2.each do |a|%>
+          <p><%= avish.search('review-content review-headline').text.strip%></p>
+        <% end %>
+      </div>
+    </div>
+  </div>
