@@ -9,13 +9,13 @@
         </a>
       </div>
 
-    <div class="avis-details">
-      <% url = "https://www.airbnb.fr/rooms/12510249" %>
-      <% html_file = open(url).read %>
-      <% html_doc = Nokogiri::HTML(html_file) %>
-      <% avis = html_doc.search('._2h22gn') %>
-     <p><%= avis.search('h4 ._1vbkutid').text.strip %></p>
-    </div>
+    <!-- <div class="avis-details">
+      <%# url = "https://www.airbnb.fr/rooms/12510249" %>
+      <%# html_file = open(url).read %>
+      <%# html_doc = Nokogiri::HTML(html_file) %>
+      <%# avis = html_doc.search('._2h22gn') %>
+     <p><%#= avis.search('h4 ._1vbkutid').text.strip %></p>
+    </div> -->
 
     </div>
     <div class="col-xs-12 col-md-6">
