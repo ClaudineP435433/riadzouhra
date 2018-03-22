@@ -1,11 +1,10 @@
 # data/infos.yml
 accueil:
-  intro: "Riad Zouhra est situé dans la médina d'Essaouira, dans le quartier typique médina Marocaine, de Chbanat. </br>
-  Il est près  des souks, du port de toute l'animation d'Essaouira, à 2 minutes de la plage, et à deux pas du parking surveillé Bab Marrakech. Tout peut être visité à pied. </br>
-  Point de départ de vos excursions à pied, en vélo, en 4x4, dromadaire... de vos activités nautiques, golf ... </br>
-  Ce riad allie l'aspect traditionnel de part son achitecture et le contemporain avec sa décoration épurée, sa blancheur. </br>
-  Il est composé de trois chambres avec leur salle de bain, d'un salons avec leur cheminée, d'une cuisine équipée avec son coin repas, une terrasse et un solarium avec vue sur la médina. </br>
-  Ce riad correspond à une famille de six à sept personnes avec sa superficie de 170m² comprenant 40m² de Terrasse."
+  intro: "Riad Zouhra est situé dans la médina d'Essaouira, dans le quartier typique médina Marocaine, de Chbanat. </br></br>
+  Il est près  des souks, du port de toute l'animation d'Essaouira, à 2 minutes de la plage, et à deux pas du parking surveillé Bab Marrakech. Tout peut être visité à pied.
+  Point de départ de vos excursions à pied, en vélo, en 4x4, dromadaire... de vos activités nautiques, golf ... Ce riad allie l'aspect traditionnel de part son achitecture et le contemporain avec sa décoration épurée, sa blancheur. </br></br>
+  Il est composé de trois chambres avec leur salle de bain, d'un salon avec cheminée, d'une cuisine équipée avec son coin repas, une terrasse et un solarium avec vue sur la médina. </br>
+  Ce riad est idéal pour une famille de six à sept personnes avec sa superficie de 170m² comprenant 40m² de Terrasse."
 direction:
   ville: "Essaouira (الصويرة) (la bien dessinée) est une ville portuaire du Maroc de la côte atlantique comptant environ 70 000 habitants et le chef-lieu de la province du même nom qui compte environ 500 000 habitants. Sa médina est inscrite au patrimoine mondial de l'UNESCO."
   riad: "Le riad se trouve dans la Médina d'Essaouira, dans la rue Mourabitine, à 150 m du parking Bab Marrakech,... Le plan d'Essaouira vous permettra de nous localiser et de vous balader.."
