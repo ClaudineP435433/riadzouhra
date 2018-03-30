@@ -1,0 +1,41 @@
+ <div class="row">
+    <h3>Les prochains événements à ne pas manquer</h3>
+    <p>de <%= link_to "made in essaouira", 'https://essaouira.madeinmedina.com/fr/' %></p>
+
+      <div class="avis-details text-center">
+        <% url = "https://essaouira.madeinmedina.com/fr/" %>
+        <% html_file = open(url).read %>
+        <% html_doc = Nokogiri::HTML(html_file) %>
+        <% events = html_doc.search('.collection-item') %>
+        <% events[0...12].each do |event|%>
+          <% ev_image = event.search('.move-picture img').attribute('data-original').text.strip %>
+          <% title = event.search('.panel-title a').text.strip %>
+          <% title_link = event.search('.panel-title a').attribute('href').text.strip %>
+          <% date = event.search('.font-date').text.strip %>
+          <% location = event.search('.location').text.strip  %>
+
+
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <div class="card-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path ev_image %>);">
+              </div>
+                <div class="card-description">
+                  <h2 class="text-left"><%= title %></h2>
+                  <ul class="text-left">
+                    <li><i class="fa fa-calendar"></i>  <%= date %></li>
+                    <li class="card-location"><i class="fa fa-map-marker"></i>  <%= location %></li>
+                  </ul>
+                </div>
+
+              <a class="card-link" href=<%= title_link %> target="_blank"></a>
+            </div>
+          </div>
+        <% end %>
+
+
+
+
+      </div>
+
+
+</div>
