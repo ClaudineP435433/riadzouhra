@@ -16,6 +16,7 @@
 }
 
 
+
 .section-top {
 
    h3 {
@@ -127,5 +128,14 @@
     font-family: 'Amatic SC', cursive;
     font-size: 45px;
     z-index: -1;
+  }
+}
+
+#infos-hover {
+  a {
+    text-decoration: none;
+  }
+  &:hover {
+    color: $blue-essaouira;
   }
 }
