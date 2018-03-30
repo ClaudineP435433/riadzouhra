@@ -27,6 +27,7 @@
       }
     }
   }
+
   .carouse-control{
     &.left, &.right{
       background-image: none;
@@ -40,6 +41,5 @@
     // background-position: 50%;
     background: cover;
     object-fit: cover;
-
 }
 
