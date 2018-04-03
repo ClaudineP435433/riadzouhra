@@ -1,0 +1,27 @@
+.avis-details {
+  h4 {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 16px ;
+  }
+  h6 {
+    margin: 0;
+  }
+}
+
+.avis-homelidays {
+  margin-top: 20px;
+}
+
+.avis-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avis-brand {
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  min-height: 250px;
+}
