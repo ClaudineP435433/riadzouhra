@@ -30,14 +30,26 @@
           zoom: 15,
           center: uluru
         });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
+
+        //Place ID ChIJl4BtAzOarQ0RS8IuEB_y6n8
+
+        var service = new google.maps.places.PlacesService(map);
+
+        service.getDetails({
+          placeId: 'ChIJl4BtAzOarQ0RS8IuEB_y6n8'
+        }, function(place, status) {
+          if (status === google.maps.places.PlacesServiceStatus.OK) {
+            var marker = new google.maps.Marker({
+              map: map,
+              position: place.geometry.location
+            });
+          }
         });
+
       }
     </script>
     <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAggkEFHvoldv7mbC32hvy0zouVK4BIcHg&callback=initMap">
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAggkEFHvoldv7mbC32hvy0zouVK4BIcHg&libraries=places&callback=initMap">
     </script>
     <%= javascript_include_tag "application" %>
   </body>
