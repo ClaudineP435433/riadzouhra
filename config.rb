@@ -12,9 +12,14 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
+
   activate :relative_assets
   set :relative_links, true
+  activate :s3_sync do |s3_sync|
+    default_caching_policy max_age:(60 * 60 * 24 * 31)
+  end
 end
+
 
 activate :deploy do |deploy|
   deploy.build_before = true

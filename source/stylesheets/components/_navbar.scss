@@ -17,21 +17,19 @@
 }
 
 /* Logo */
-.navbar-wagon-brand img {
-  height: 50px;
-}
-
 .navbar-wagon-brand {
   h5 {
     font-family: 'Amatic SC', cursive;
     color: #616668;
     letter-spacing: 5px;
-    }
-    a:hover {
-      color: $blue-essaouira;
-      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+
+      }
     }
 }
+
+
 
 /* User Avatar */
 .navbar-wagon .avatar {
