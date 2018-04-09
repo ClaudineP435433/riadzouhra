@@ -139,3 +139,11 @@
     color: $blue-essaouira;
   }
 }
+
+.avis-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 60%;
+  max-width: 600px;
+}

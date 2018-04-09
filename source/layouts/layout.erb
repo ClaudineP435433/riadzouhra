@@ -12,7 +12,7 @@
     <meta property="og:title" content="Riad Zouhra">
     <meta property="og:description" content="Riad Zouhra, situé dans la médina d'Essaouira est un logement de vacances idéal comme point de départ de vos excursions à pied, en vélo, en 4x4 ou en dromadaire... Ce riad de 6 à 7 personnes allie l'aspect traditionnel de part son achitecture et le contemporain avec sa décoration épurée, sa blancheur.">
     <meta property="og:url" content="http://www.riadzouhra.com">
-    <meta property="og:image" content="https://res.cloudinary.com/www-riadzouhra-com/image/upload/v1522749535/port_essaouira.jpg">
+    <meta property="og:image" content="http://res.cloudinary.com/www-riadzouhra-com/image/upload/c_scale,w_2920/v1522749535/port_essaouira.jpg">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Indie+Flower|Montserrat" rel="stylesheet">
     <%= stylesheet_link_tag "application" %>
@@ -23,7 +23,7 @@
     <%= yield %>
     <%= partial "layouts/footer" %>
 
-    <script>
+    <script async>
       function initMap() {
         var uluru = {lat: 31.512886, lng: -9.765531};
         var map = new google.maps.Map(document.getElementById('map'), {
