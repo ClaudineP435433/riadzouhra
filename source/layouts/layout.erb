@@ -23,7 +23,7 @@
     <%= yield %>
     <%= partial "layouts/footer" %>
 
-    <script>
+    <script async>
       function initMap() {
         var uluru = {lat: 31.512886, lng: -9.765531};
         var map = new google.maps.Map(document.getElementById('map'), {
