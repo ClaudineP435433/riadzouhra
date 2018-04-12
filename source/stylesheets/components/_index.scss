@@ -14,5 +14,12 @@
 p {
   text-align: justify;
   font-size: 14px;
+}
 
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+html {
+    scroll-behavior: smooth
 }

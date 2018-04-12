@@ -16,9 +16,9 @@
 }
 
 
-
 .section-top {
-   h3 {
+  transition: all 1s ease;
+  h3 {
     font-family: 'Amatic SC', cursive;
     font-size: 45px;
     z-index: -1;
