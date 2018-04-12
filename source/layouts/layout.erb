@@ -24,23 +24,6 @@
     <%= yield %>
     <%= partial "layouts/footer" %>
 
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "url": "http://www.riadzouhra.com",
-      "contactPoint": [
-        { "@type": "ContactPoint",
-          "url": "http://www.riadzouhra.com",
-          "email": "riadzouhra@gmail.com",
-          "contactType": "customer service"
-        }
-      ],
-      "image": "http://res.cloudinary.com/www-riadzouhra-com/image/upload/c_scale,w_2920/v1522749535/port_essaouira.jpg",
-      "description": "Riad Zouhra, situé dans la médina d'Essaouira est un logement de vacances idéal comme point de départ de vos excursions à pied, en vélo, en 4x4 ou en dromadaire... Ce riad de 6 à 7 personnes allie l'aspect traditionnel de part son achitecture et le contemporain avec sa décoration épurée, sa blancheur."
-    }
-    </script>
-
     <script async>
       function initMap() {
         var uluru = {lat: 31.512886, lng: -9.765531};
