@@ -10,7 +10,10 @@
   align-items: center;
   justify-content: center;
   position: relative;
+}
 
+.banner-small {
+  height: calc(50vh - 55px);
 }
 .banner h1 {
   font-size: 82px;
